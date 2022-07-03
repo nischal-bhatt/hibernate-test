@@ -15,7 +15,7 @@ public class HibernateTest {
 		
 		UserDetailsNew ud1 = new UserDetailsNew();
 		ud1.setUserId(281416);
-		ud1.setUserName("michael");
+		ud1.setUserName("michael meyers");
 		
 		Configuration config = new Configuration().configure();
 		

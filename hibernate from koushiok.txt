@@ -1,0 +1,40 @@
+series of tutorials on hibernate 
+what hibernate is ?
+  an orm tool --> 
+  used in the data layer --> persisting to database
+  implements JPA (java persistence API)
+  
+  what is the prob that hibernate is trying to solve? 
+  lets say we have a user class with 5 fields --> id , name , address etc etc
+  
+  lets say we have 5 of these objects 
+  1,'nish','14-15',64457158,15/5/1987
+  
+  we have a relational database 
+  
+  we need to persist these objects into the relational database 
+  
+  we have a user table 
+  
+  we save them as rows in the table 
+  
+  class - table
+  object - row in the table 
+  
+  java app - we use jdbc connection 
+  connect to db 
+  take user object 
+  and i would pull up all these fields and create sql query 
+  returning ResultSet --> pull back all the individual data 
+  in java we have objects --> in db level there are no objects 
+  there is conversion of entitiees --> we need to use alot of boilerplate code 
+  the mapping is a pain --> we need to convert each object into a sql query 
+  what are the pain points?
+  1.mapping member variables to columns
+  2.mapping relationships is a big pain (FK etcetc)
+  3.handling data types
+  4.managing changes to object state
+  5.relational way of doing things vs object oriented way of doing things
+  6.object relational mapping - ORM 
+ 
+how can we use it ?

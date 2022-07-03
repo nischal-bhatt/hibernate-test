@@ -1,0 +1,42 @@
+hibernate ORM tool - making database operations 
+hibernate meaning -- sleep mode
+view
+controller
+model - hibernate will help us under model part 
+
+model is divide into business, DAO, service - will help under DAO part
+
+DAO data access objects --> will have capability to interact with database 
+
+which features dont we have in jdbc that hibernate has ? 
+1. EJB- enterprise java beans 
+jdbc doesnt have caching support 
+hibernate avoids query dependent code
+EJB has dependency on session beans
+
+so the prob with jdbc and ejb --> led to the invention of hibernate
+
+hibernate features
+1. auto ddl features
+2. hibernate query language support (database independent _)
+3. cache support
+4. PK generated support
+5. validation support (annotations)
+6. exception handling support 
+7. orm support
+8. 
+
+hibernate object types 
+1. using an object we need to make crud operations 
+2. in hibernate 
+
+persistent object
+detached object
+transient object 
+
+hibernate app
+1. pojo class
+2. mapping file
+3. config file
+4. test class 
+

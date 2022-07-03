@@ -10,7 +10,7 @@ public class HibernateTest {
 
 		UserDetailsNew ud = new UserDetailsNew();
 		
-		ud.setUserId(344262);
+		ud.setUserId(281415);
 		ud.setUserName("first nuser");
 		
 		

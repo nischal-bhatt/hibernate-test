@@ -13,6 +13,9 @@ public class HibernateTest {
 		ud.setUserId(281415);
 		ud.setUserName("first nuser");
 		
+		UserDetailsNew ud1 = new UserDetailsNew();
+		ud1.setUserId(281416);
+		ud1.setUserName("michael");
 		
 		Configuration config = new Configuration().configure();
 		
@@ -21,6 +24,7 @@ public class HibernateTest {
 	  s.beginTransaction();
 	  
 	  s.save(ud);
+	  s.save(ud1);
 	  
 	  s.getTransaction().commit();
 	  
